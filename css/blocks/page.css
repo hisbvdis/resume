@@ -1,0 +1,18 @@
+.page {
+  inline-size: min(100%, 768px);
+  margin-inline: auto;
+
+  background-color: #fff;
+}
+
+.page__header {
+  grid-column: 1 / -1;
+}
+
+
+@media (min-width: 700px) {
+  .page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}

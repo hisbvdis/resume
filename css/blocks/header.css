@@ -1,0 +1,43 @@
+.header {
+  padding-block: 20px 30px;
+  
+  color: #fff;
+  
+  background-color: #42B883;
+}
+
+.header__bio {
+  margin-block-end: 20px;
+}
+
+.header__photo {
+  margin-inline: auto;
+}
+
+
+@media (min-width: 0) and (max-width: 700px) {
+  .header {
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 700px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-block-size: 180px;
+  }
+
+  .header__cell2 {
+    position: relative;
+  }
+
+  .header__photo {
+    position: absolute;
+    inset-inline-start: 0;
+    inset-block-end: 0;
+
+    transform: translate(-60%, 60%);
+  }
+}

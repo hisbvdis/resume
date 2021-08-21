@@ -1,0 +1,7 @@
+.section {
+  padding-inline: 30px;
+}
+
+.section + .section {
+  margin-block-start: 20px;
+}

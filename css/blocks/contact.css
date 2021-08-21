@@ -1,0 +1,7 @@
+.contact__title {
+  color: #fff;
+}
+
+.contact__title:not(:first-child) {
+  margin-block-start: 5px;
+}

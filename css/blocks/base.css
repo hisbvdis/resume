@@ -1,0 +1,66 @@
+/* Reset */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+
+
+/* Box-sizing */
+html {
+  box-sizing: border-box
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit
+}
+
+
+/* Scroll */
+body {
+  overflow-y: scroll;
+}
+
+
+/* 1rem = 1px */
+:root {
+  font-size: 6.25%
+}
+
+
+body {
+  padding: 10px;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-size: 16rem;
+  color: #000;
+
+  background-color: #525659;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+a {
+  text-decoration: underline;
+  
+  cursor: pointer;
+}
+
+/* Screenreaders only */
+.srOnly {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  white-space: nowrap;
+
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}

@@ -1,0 +1,15 @@
+@import "blocks/base.css";
+
+@import "blocks/page.css";
+@import "blocks/section.css";
+@import "blocks/sectionTitle.css";
+
+@import "blocks/header.css";
+@import "blocks/aside.css";
+@import "blocks/main.css";
+
+@import "blocks/bio.css";
+@import "blocks/photo.css";
+@import "blocks/skills.css";
+@import "blocks/contact.css";
+@import "blocks/experience.css";
