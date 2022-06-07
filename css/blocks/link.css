@@ -1,4 +1,8 @@
 .link {
-  text-decoration-color: #999;
-  font-style: italic;
+  text-decoration: none;
+}
+
+.link:hover {
+  /* text-decoration-color: #999; */
+  text-decoration: underline;
 }

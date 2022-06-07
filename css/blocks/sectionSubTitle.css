@@ -1,5 +1,6 @@
 .sectionSubTitle {
   margin-block-start: 5px;
   
-  font-weight: 600;
+  /* font-weight: 600; */
+  font-style: italic;
 }
