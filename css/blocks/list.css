@@ -1,0 +1,15 @@
+.list {
+  margin-block-start: 3px;
+}
+
+.list__item {
+  margin-block-end: 5px;
+}
+
+.list__link {
+  text-decoration-color: #999;
+}
+
+.list__link:hover {
+  text-decoration-color: #000;
+}

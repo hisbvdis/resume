@@ -1,7 +1,26 @@
 /* Reset */
-*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+/* *:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
   all: unset;
   display: revert;
+} */
+
+/* Убрать внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd,
+input {
+  margin: unset;
 }
 
 
@@ -43,9 +62,14 @@ ul {
 }
 
 a {
+  color: inherit;
   text-decoration: underline;
   
   cursor: pointer;
+}
+
+address {
+  font-style: normal;
 }
 
 /* Screenreaders only */

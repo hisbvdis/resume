@@ -3,5 +3,5 @@
 }
 
 .contact__title:not(:first-child) {
-  margin-block-start: 5px;
+  margin-block-start: 10px;
 }
