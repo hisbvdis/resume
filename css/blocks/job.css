@@ -4,6 +4,10 @@
   color: #666;
 }
 
+.job__name:not(:first-of-type) {
+  margin-block-start: 10px;
+}
+
 .job__date {
   font-style: italic;
 }
