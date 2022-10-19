@@ -10,7 +10,7 @@
 }
 
 
-@media (min-width: 700px) {
+@media print, (width > 700px) {
   .page {
     display: grid;
     grid-template-columns: 1fr 2fr;
